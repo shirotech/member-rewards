@@ -12,6 +12,7 @@ This is a demo app to demonstrate a very simple API that allows to:
 ### PostgreSQL
 
 * Use latest PostgreSQL, currently on `9.6.2`
+* The pg configuration is at [knexfile.js](knexfile.js)
 
 ### Node.js
 
@@ -20,7 +21,7 @@ This is a demo app to demonstrate a very simple API that allows to:
 
 ## Installation instructions
 
-1. If using `nvm`, `cd` to project root directory and run `nvm install` the intended version for this project, then run `nvm use` to change to the right version.
+1. If using `nvm`, `cd` to project root directory and run `nvm install` which will install the intended version for this project, then run `nvm use` to change to the right version.
 2. `npm run db:create:dev` which will create the database and user.
 3. `npm start` which will create the tables, install npm packages and run the server.
 4. `npm test` will run the unit tests.
