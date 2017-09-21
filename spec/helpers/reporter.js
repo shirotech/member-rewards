@@ -1,2 +1,5 @@
 const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
-jasmine.getEnv().addReporter(new SpecReporter());
+const env = jasmine.getEnv();
+
+env.clearReporters();
+env.addReporter(new SpecReporter());
